@@ -1,0 +1,79 @@
+AzureAD+AdrianVojvodic@DESKTOP-KM1UMTE MINGW64 /d/GIT_AV_REPOS/plotly-challenge/Belly_Button_Diversity (master)
+$ pip install -r requirements.txt                                                                                       Collecting certifi==2018.4.16 (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl (150kB)
+    100% |████████████████████████████████| 153kB 3.4MB/s
+Collecting click==6.7 (from -r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl
+Requirement already satisfied: Flask==1.0.2 in c:\users\adrianvojvodic\anaconda3\envs\pythondata\lib\site-packages (from -r requirements.txt (line 3)) (1.0.2)
+Collecting Flask-SQLAlchemy==2.3.2 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/a1/44/294fb7f6bf49cc7224417cd0637018db9fee0729b4fe166e43e2bbb1f1c8/Flask_SQLAlchemy-2.3.2-py2.py3-none-any.whl
+Collecting itsdangerous==0.24 (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz
+Requirement already satisfied: Jinja2==2.10 in c:\users\adrianvojvodic\anaconda3\envs\pythondata\lib\site-packages (from -r requirements.txt (line 6)) (2.10)
+Collecting MarkupSafe==1.0 (from -r requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+Collecting numpy==1.14.5 (from -r requirements.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/0d/b7/0c804e0bcba6505f8392d042d5e333a5e06f308e019517111fbc7767a0bc/numpy-1.14.5-cp36-none-win_amd64.whl (13.4MB)
+    100% |████████████████████████████████| 13.4MB 3.0MB/s
+Collecting pandas==0.23.3 (from -r requirements.txt (line 9))
+  Downloading https://files.pythonhosted.org/packages/07/54/5379878cd2ccabd08ab9ce356e204a5bb46c870f203c93c808c22dd63125/pandas-0.23.3-cp36-cp36m-win_amd64.whl (7.7MB)
+    100% |████████████████████████████████| 7.7MB 4.5MB/s
+Collecting python-dateutil==2.7.3 (from -r requirements.txt (line 10))
+  Downloading https://files.pythonhosted.org/packages/cf/f5/af2b09c957ace60dcfac112b669c45c8c97e32f94aa8b56da4c6d1682825/python_dateutil-2.7.3-py2.py3-none-any.whl (211kB)
+    100% |████████████████████████████████| 215kB 8.5MB/s
+Collecting pytz==2018.5 (from -r requirements.txt (line 11))
+  Downloading https://files.pythonhosted.org/packages/30/4e/27c34b62430286c6d59177a0842ed90dc789ce5d1ed740887653b898779a/pytz-2018.5-py2.py3-none-any.whl (510kB)
+    100% |████████████████████████████████| 512kB 8.5MB/s
+Collecting six==1.11.0 (from -r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting SQLAlchemy==1.2.10 (from -r requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/8a/c2/29491103fd971f3988e90ee3a77bb58bad2ae2acd6e8ea30a6d1432c33a3/SQLAlchemy-1.2.10.tar.gz (5.6MB)
+    100% |████████████████████████████████| 5.6MB 5.1MB/s
+Collecting Werkzeug==0.14.1 (from -r requirements.txt (line 14))
+  Using cached https://files.pythonhosted.org/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl
+Building wheels for collected packages: itsdangerous, MarkupSafe, SQLAlchemy
+  Building wheel for itsdangerous (setup.py) ... done
+  Stored in directory: C:\Users\AdrianVojvodic\AppData\Local\pip\Cache\wheels\2c\4a\61\5599631c1554768c6290b08c02c72d7317910374ca602ff1e5
+  Building wheel for MarkupSafe (setup.py) ... done
+  Stored in directory: C:\Users\AdrianVojvodic\AppData\Local\pip\Cache\wheels\33\56\20\ebe49a5c612fffe1c5a632146b16596f9e64676768661e4e46
+  Building wheel for SQLAlchemy (setup.py) ... done
+  Stored in directory: C:\Users\AdrianVojvodic\AppData\Local\pip\Cache\wheels\3b\5e\6b\6716bdf0815da6a7e4526c1f39d6e7d8cbb5eb5054f83f98fb
+Successfully built itsdangerous MarkupSafe SQLAlchemy
+tables 3.5.1 requires mock>=2.0, which is not installed.
+eve 0.9.2 has requirement werkzeug==0.15.4, but you'll have werkzeug 0.14.1 which is incompatible.
+Installing collected packages: certifi, click, SQLAlchemy, Flask-SQLAlchemy, itsdangerous, MarkupSafe, numpy, pytz, six, python-dateutil, pandas, Werkzeug
+  Found existing installation: certifi 2019.6.16
+    Uninstalling certifi-2019.6.16:
+      Successfully uninstalled certifi-2019.6.16
+  Found existing installation: Click 7.0
+    Uninstalling Click-7.0:
+      Successfully uninstalled Click-7.0
+  Found existing installation: SQLAlchemy 1.3.6
+    Uninstalling SQLAlchemy-1.3.6:
+      Successfully uninstalled SQLAlchemy-1.3.6
+  Found existing installation: itsdangerous 1.1.0
+    Uninstalling itsdangerous-1.1.0:
+      Successfully uninstalled itsdangerous-1.1.0
+  Found existing installation: MarkupSafe 1.1.1
+    Uninstalling MarkupSafe-1.1.1:
+      Successfully uninstalled MarkupSafe-1.1.1
+  Found existing installation: numpy 1.16.2
+    Uninstalling numpy-1.16.2:
+      Successfully uninstalled numpy-1.16.2
+  Found existing installation: pytz 2018.9
+    Uninstalling pytz-2018.9:
+      Successfully uninstalled pytz-2018.9
+  Found existing installation: six 1.12.0
+    Uninstalling six-1.12.0:
+      Successfully uninstalled six-1.12.0
+  Found existing installation: python-dateutil 2.8.0
+    Uninstalling python-dateutil-2.8.0:
+      Successfully uninstalled python-dateutil-2.8.0
+  Found existing installation: pandas 0.24.2
+    Uninstalling pandas-0.24.2:
+      Successfully uninstalled pandas-0.24.2
+  Found existing installation: Werkzeug 0.15.4
+    Uninstalling Werkzeug-0.15.4:
+      Successfully uninstalled Werkzeug-0.15.4
+Successfully installed Flask-SQLAlchemy-2.3.2 MarkupSafe-1.0 SQLAlchemy-1.2.10 Werkzeug-0.14.1 certifi-2018.4.16 click-6.7 itsdangerous-0.24 numpy-1.14.5 pandas-0.23.3 python-dateutil-2.7.3 pytz-2018.5 six-1.11.0
+(PythonData)
