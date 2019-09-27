@@ -1,0 +1,38 @@
+
+<body>
+  <div id="line"></div>
+  <script>
+    d3.json('/line').then(function(data) {
+      var layout = { margin: { t: 0 } }
+      var LINE = document.getElementById('line');
+      Plotly.plot(LINE, data)
+    })
+  </script>
+</body>
+
+</html>
+
+**********************************
+
+from flask import Flask, jsonify, render_template
+app = Flask(__name__)
+
+
+@app.route("/")
+def index():
+    return render_template('index.html')
+
+
+@app.route("/line")
+def test():
+    data = [{
+        "x": [1, 2, 3, 4, 5],
+        "y": [1, 2, 4, 8, 16]}]
+
+    return jsonify(data)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+*****************************************************************
